@@ -15,6 +15,7 @@
 
 .right {
   right: 0;
+  background-color: rgb(87, 87, 87);
 }
 
 .centered {
@@ -27,13 +28,14 @@
 
 .name_title {
   font-size: 48px;
-  color: black;
+  color: ghostwhite;
   text-align: left;
   padding-bottom: 20px;
 }
 
 .brief_description {
   text-align: left;
+  color: ghostwhite;
 }
 
 .profile_image {
