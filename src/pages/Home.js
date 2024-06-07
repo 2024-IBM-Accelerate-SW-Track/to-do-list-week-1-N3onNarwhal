@@ -32,7 +32,7 @@ class Home extends Component {
     return (
       <div className="Home">
         <Todos todos={this.state.todos} />
-        <AddTodo addTodo={this.state.todos.addTodo()} />
+        <AddTodo addTodo={this.addTodo} />
         <h1>Todo's</h1>
       </div>
     );
